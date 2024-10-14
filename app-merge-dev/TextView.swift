@@ -9,10 +9,17 @@ import SwiftUI
 
 struct TextView: View {
     var body: some View {
-        Text(getTitle())
+        VStack {
+            Text(getTitle())
+            Text(getSubtitle())
+        }
     }
     
     func getTitle() -> String {
         "Hello There!"
+    }
+    
+    func getSubtitle() -> String {
+        "Hello There Subtitle!"
     }
 }

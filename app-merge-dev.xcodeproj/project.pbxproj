@@ -11,6 +11,7 @@
 		A031D8CC2CBD6E33008FFA9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031D8CB2CBD6E33008FFA9A /* ContentView.swift */; };
 		A031D8CE2CBD6E39008FFA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A031D8CD2CBD6E39008FFA9A /* Assets.xcassets */; };
 		A031D8D12CBD6E39008FFA9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A031D8D02CBD6E39008FFA9A /* Preview Assets.xcassets */; };
+		A031D8D82CBD70E4008FFA9A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031D8D72CBD70E4008FFA9A /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A031D8CB2CBD6E33008FFA9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A031D8CD2CBD6E39008FFA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A031D8D02CBD6E39008FFA9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A031D8D72CBD70E4008FFA9A /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		A031D8C82CBD6E33008FFA9A /* app-merge-dev */ = {
 			isa = PBXGroup;
 			children = (
+				A031D8D72CBD70E4008FFA9A /* TextView.swift */,
 				A031D8C92CBD6E33008FFA9A /* app_merge_devApp.swift */,
 				A031D8CB2CBD6E33008FFA9A /* ContentView.swift */,
 				A031D8CD2CBD6E39008FFA9A /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A031D8D82CBD70E4008FFA9A /* TextView.swift in Sources */,
 				A031D8CC2CBD6E33008FFA9A /* ContentView.swift in Sources */,
 				A031D8CA2CBD6E33008FFA9A /* app_merge_devApp.swift in Sources */,
 			);
